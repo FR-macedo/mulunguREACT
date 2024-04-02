@@ -1,13 +1,14 @@
-import Navbar from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
 
-function navbarVazia() {
+function NavbarVazia() {
     return(
+      <div>
         <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#">Navbar</Navbar.Brand>
-        </Container>
-      </Navbar>
+        <Navbar.Brand href="#">Navbar</Navbar.Brand> 
+        </Navbar>
+      </div>
+        
     );
 }
 
-export default navbarVazia;
+export default NavbarVazia;

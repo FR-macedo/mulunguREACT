@@ -1,12 +1,16 @@
 import './App.css';
-import navbar from "./components/";
-import navbarVazia from "./components/";
+import Navbar from "./components/Navbartop";
+import NavbarVazia from './components/NavbarVazia';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CarouselIndex from './components/CarouselIndex';
 
 function App() {
   return (
-    <div className="App">
-      <mavbar/>
-      <navbarVazia/>
+    <div className='App'>
+      <Navbar/>
+      <NavbarVazia/>
+
+      <CarouselIndex/>
 
 
     </div>
